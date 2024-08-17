@@ -1,0 +1,20 @@
+{
+  "images" : [
+    {
+      "filename" : "tc-logo-en.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "tc-logo-fr.png",
+      "idiom" : "universal",
+      "locale" : "fr"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}

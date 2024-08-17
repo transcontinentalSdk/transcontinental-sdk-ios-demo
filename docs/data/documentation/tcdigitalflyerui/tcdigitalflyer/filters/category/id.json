@@ -1,0 +1,280 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Identifiable.id",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
+        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters",
+        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category",
+        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/Identifiable-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/id"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "TCDigitalFlyer",
+    "externalID" : "s:14TCDigitalFlyer7FiltersV8CategoryV0aB2UIE2idSSvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "id"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyerUI",
+        "relatedModules" : [
+          "TCDigitalFlyer"
+        ]
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "id"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "id"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters\/category\/id"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "code" : "TCDigitalFlyerUI",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " contains extensions and components to integrate the Transcontinental iOS SDK into a SwiftUI application, while also providing an easily themeable search and filter UI.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyerUI",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyer",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Filters"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Filters",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer7FiltersV",
+      "text" : "Filters"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:14TCDigitalFlyer7FiltersV8CategoryV",
+      "text" : "Category"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Category"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Filters.Category",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters\/category"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category/Identifiable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/Identifiable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Identifiable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters\/category\/identifiable-implementations"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters\/category\/id"
+}
+}
+}

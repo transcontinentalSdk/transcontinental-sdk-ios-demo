@@ -1,0 +1,638 @@
+{
+  "abstract" : [
+    {
+      "text" : "The entrypoint to styling the FlyerViewUI",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:16TCDigitalFlyerUI0B5StyleV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FlyerStyle"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "TCDigitalFlyerUI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FlyerStyle"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "FlyerStyle"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FlyerStyle"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The default FlyerStyle is minimal and uses native styling where possible.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "As a result, users of the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " will want to create a custom style and",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "apply that as a view modifier to the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "code" : "View",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " extension simplifies passing the custom style to the UI:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "FlyerViewUI(...) { event in ",
+            "    ...",
+            "}",
+            ".flyerStyle(.myCustomFlyerStyle)"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Custom flyer styles can be created by adding to a ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " extension, and",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "using the type-erased control styles: ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ",",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Here is an example partial implementation of a custom flyer style:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "extension FlyerStyle {",
+            "    static var myCustomFlyerStyle: Self {",
+            "        Self(",
+            "            masthead: .init(",
+            "                logo: Image(\"tc-logo\")",
+            "            ),",
+            "            searchBar: .init(",
+            "                search: .init(",
+            "                    searchTextField: MySearchTextFieldStyle(),",
+            "                    filterToggleStyle: MyFilterToggleStyle(),",
+            "                    resetButtonStyle: MyResetButtonStyle()",
+            "                ),",
+            "                filter: .init(",
+            "                    categoryToggleStyle: MyFilterToggleStyle(),",
+            "                    discountToggleStyle: MyFilterToggleStyle()",
+            "                )",
+            "            )",
+            "        )",
+            "    }",
+            "}",
+            "",
+            "\/\/ MARK: - Custom implementations",
+            "",
+            "struct ResetButtonStyle: ButtonStyle {",
+            "    @Environment(\\.isEnabled) var isEnabled",
+            "",
+            "    func makeBody(configuration: Configuration) -> some View {",
+            "        configuration.label",
+            "            .foregroundColor(configuration.isPressed ? .myTheme.gray : .myTheme.red)",
+            "    }",
+            "} ",
+            "",
+            "..."
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/none"
+      ],
+      "title" : "Type Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/tcdigitalflyerui\/flyerstyle"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "code" : "TCDigitalFlyerUI",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " contains extensions and components to integrate the Transcontinental iOS SDK into a SwiftUI application, while also providing an easily themeable search and filter UI.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "TCDigitalFlyerUI",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyButtonStyle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnyButtonStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnyButtonStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnyButtonStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/anybuttonstyle"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyPrimitiveButtonStyle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnyPrimitiveButtonStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnyPrimitiveButtonStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnyPrimitiveButtonStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/anyprimitivebuttonstyle"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyTextFieldStyle": {
+  "abstract" : [
+    {
+      "text" : "A type-erased ",
+      "type" : "text"
+    },
+    {
+      "code" : "LabelStyle",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnyTextFieldStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnyTextFieldStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnyTextFieldStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/anytextfieldstyle"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyToggleStyle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnyToggleStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnyToggleStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnyToggleStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/anytogglestyle"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle": {
+  "abstract" : [
+    {
+      "text" : "The entrypoint to styling the FlyerViewUI",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/init(masthead:searchBar:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "masthead"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16TCDigitalFlyerUI0B13MastheadStyleV",
+      "text" : "FlyerMastheadStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "searchBar"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16TCDigitalFlyerUI0B14SearchBarStyleV",
+      "text" : "FlyerSearchBarStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(masthead:searchBar:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle\/init(masthead:searchbar:)"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/none": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "none"
+    },
+    {
+      "kind" : "text",
+      "text" : ": `Self`"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/none",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "none",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle\/none"
+},
+"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
+  "abstract" : [
+    {
+      "text" : "A custom SwiftUI view that displays the Digital Flyer.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This view is the entrypoint for the Digital Flyer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerViewUI"
+    }
+  ],
+  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerViewUI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerViewUI",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui"
+}
+}
+}

@@ -2,13 +2,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -55,6 +55,19 @@
           ],
           "tokens" : [
             {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
               "kind" : "keyword",
               "text" : "struct"
             },
@@ -75,7 +88,8 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/7SwiftUI11ButtonStyleP"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/s8SendableP",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/7SwiftUI11ButtonStyleP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -92,14 +106,18 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle\/init()"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle\/init()"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle\/makeBody(configuration:)"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle\/makeBody(configuration:)"
       ],
       "title" : "Instance Methods"
     }
@@ -118,12 +136,12 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyerUI/7SwiftUI11ButtonStyleP": {
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/7SwiftUI11ButtonStyleP",
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/7SwiftUI11ButtonStyleP": {
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/7SwiftUI11ButtonStyleP",
   "title" : "SwiftUI.ButtonStyle",
   "type" : "unresolvable"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
   "abstract" : [
     {
       "text" : "The ",
@@ -138,14 +156,14 @@
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyerUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/DefaultButtonStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/DefaultButtonStyle": {
   "abstract" : [
 
   ],
@@ -163,7 +181,7 @@
       "text" : "DefaultButtonStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -176,7 +194,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/defaultbuttonstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/DefaultButtonStyle/init()": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/DefaultButtonStyle/init()": {
   "abstract" : [
 
   ],
@@ -190,14 +208,14 @@
       "text" : "()"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle\/init()",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle\/init()",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/defaultbuttonstyle\/init()"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/DefaultButtonStyle/makeBody(configuration:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/DefaultButtonStyle/makeBody(configuration:)": {
   "abstract" : [
 
   ],
@@ -249,12 +267,17 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle\/makeBody(configuration:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle\/makeBody(configuration:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "makeBody(configuration:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/defaultbuttonstyle\/makebody(configuration:)"
+},
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/s8SendableP": {
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }

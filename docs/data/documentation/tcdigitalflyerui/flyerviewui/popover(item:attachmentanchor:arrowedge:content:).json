@@ -16,20 +16,20 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/popover(item:attachmentAnchor:arrowEdge:content:)"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/popover(item:attachmentAnchor:arrowEdge:content:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "SwiftUI",
-    "externalID" : "s:7SwiftUI4ViewPAAE7popover4item16attachmentAnchor9arrowEdge7contentQrAA7BindingVyqd__SgG_AA017PopoverAttachmentG0OAA0I0Oqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lF::SYNTHESIZED::s:16TCDigitalFlyerUI0b4ViewC0V",
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE7popover4item16attachmentAnchor9arrowEdge7contentQrAA7BindingVyqd__SgG_AA017PopoverAttachmentG0OAA0I0OSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lF::SYNTHESIZED::s:16TCDigitalFlyerUI0b4ViewC0V",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -120,7 +120,7 @@
       },
       {
         "kind" : "text",
-        "text" : ", "
+        "text" : "?, "
       },
       {
         "kind" : "externalParam",
@@ -164,7 +164,7 @@
       {
         "name" : "TCDigitalFlyerUI",
         "relatedModules" : [
-          "SwiftUI"
+          "SwiftUICore"
         ]
       }
     ],
@@ -174,6 +174,20 @@
         "deprecated" : false,
         "introducedAt" : "13.0",
         "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
@@ -200,6 +214,14 @@
             "iOS"
           ],
           "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
             {
               "kind" : "keyword",
               "text" : "func"
@@ -289,7 +311,7 @@
             },
             {
               "kind" : "text",
-              "text" : " = .top, "
+              "text" : "? = nil, "
             },
             {
               "kind" : "attribute",
@@ -423,7 +445,7 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
   "abstract" : [
     {
       "text" : "The ",
@@ -438,14 +460,14 @@
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyerUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
   "abstract" : [
     {
       "text" : "A custom SwiftUI view that displays the Digital Flyer.",
@@ -474,7 +496,7 @@
       "text" : "FlyerViewUI"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -487,18 +509,18 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/View-Implementations": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/View-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "View Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/view-implementations"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/popover(item:attachmentAnchor:arrowEdge:content:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/popover(item:attachmentAnchor:arrowEdge:content:)": {
   "abstract" : [
 
   ],
@@ -592,7 +614,7 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "?, "
     },
     {
       "kind" : "externalParam",
@@ -632,7 +654,7 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/popover(item:attachmentAnchor:arrowEdge:content:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/popover(item:attachmentAnchor:arrowEdge:content:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "popover(item:attachmentAnchor:arrowEdge:content:)",

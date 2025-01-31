@@ -1,3 +1,14 @@
 [
+  {
+    "notes" : [
 
+    ],
+    "severity" : 2,
+    "source" : "..\/FlyerViewUI.swift",
+    "start" : {
+      "column" : 9,
+      "line" : 48
+    },
+    "summary" : "Return value documented for initializer returning void"
+  }
 ]

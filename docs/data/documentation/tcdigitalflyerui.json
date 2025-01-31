@@ -22,7 +22,7 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -77,7 +77,7 @@
                 {
                   "inlineContent" : [
                     {
-                      "text" : "XCode (>= 15.0)",
+                      "text" : "XCode (>= 16.0)",
                       "type" : "text"
                     }
                   ],
@@ -234,7 +234,7 @@
                       "type" : "text"
                     },
                     {
-                      "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+                      "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
                       "isActive" : true,
                       "type" : "reference"
                     }
@@ -259,7 +259,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
               "isActive" : true,
               "type" : "reference"
             },
@@ -268,7 +268,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
               "isActive" : true,
               "type" : "reference"
             },
@@ -314,7 +314,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
               "isActive" : true,
               "type" : "reference"
             },
@@ -366,6 +366,23 @@
             }
           ],
           "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Note: As the ",
+              "type" : "text"
+            },
+            {
+              "code" : "FlyerStyle",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " does not represent core rendering functionality, breaking changes to the style parameters will not result in a major SDK version update.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -381,26 +398,30 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchBarStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchBarStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI"
       ],
       "title" : "Structures"
     },
     {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/SwiftUI",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/SwiftUICore",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer"
       ],
       "title" : "Extended Modules"
     }
@@ -419,7 +440,7 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
   "abstract" : [
     {
       "text" : "The ",
@@ -434,14 +455,14 @@
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyerUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyButtonStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyButtonStyle": {
   "abstract" : [
 
   ],
@@ -459,7 +480,7 @@
       "text" : "AnyButtonStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -472,7 +493,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/anybuttonstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyPrimitiveButtonStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyPrimitiveButtonStyle": {
   "abstract" : [
 
   ],
@@ -490,7 +511,7 @@
       "text" : "AnyPrimitiveButtonStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -503,7 +524,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/anyprimitivebuttonstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyTextFieldStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyTextFieldStyle": {
   "abstract" : [
     {
       "text" : "A type-erased ",
@@ -532,7 +553,7 @@
       "text" : "AnyTextFieldStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -545,7 +566,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/anytextfieldstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyToggleStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyToggleStyle": {
   "abstract" : [
 
   ],
@@ -563,7 +584,7 @@
       "text" : "AnyToggleStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -576,7 +597,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/anytogglestyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/DefaultButtonStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/DefaultButtonStyle": {
   "abstract" : [
 
   ],
@@ -594,7 +615,7 @@
       "text" : "DefaultButtonStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -607,7 +628,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/defaultbuttonstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerFilterStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerFilterStyle": {
   "abstract" : [
 
   ],
@@ -625,7 +646,7 @@
       "text" : "FlyerFilterStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -638,7 +659,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerfilterstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerMastheadStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerMastheadStyle": {
   "abstract" : [
 
   ],
@@ -656,7 +677,7 @@
       "text" : "FlyerMastheadStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -669,7 +690,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyermastheadstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchBarStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchBarStyle": {
   "abstract" : [
 
   ],
@@ -687,7 +708,7 @@
       "text" : "FlyerSearchBarStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchBarStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchBarStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -700,7 +721,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyersearchbarstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchStyle": {
   "abstract" : [
 
   ],
@@ -718,7 +739,7 @@
       "text" : "FlyerSearchStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -731,7 +752,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyersearchstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle": {
   "abstract" : [
     {
       "text" : "The entrypoint to styling the FlyerViewUI",
@@ -752,7 +773,7 @@
       "text" : "FlyerStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -765,7 +786,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
   "abstract" : [
     {
       "text" : "A custom SwiftUI view that displays the Digital Flyer.",
@@ -794,7 +815,7 @@
       "text" : "FlyerViewUI"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -807,33 +828,33 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/Swift": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/Swift": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "Swift",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/swift"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/SwiftUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/SwiftUICore": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/SwiftUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/SwiftUICore",
   "kind" : "symbol",
   "role" : "collection",
-  "title" : "SwiftUI",
+  "title" : "SwiftUICore",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyerui\/swiftui"
+  "url" : "\/documentation\/tcdigitalflyerui\/swiftuicore"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",

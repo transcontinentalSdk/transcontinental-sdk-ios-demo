@@ -16,17 +16,17 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/Equatable-Implementations"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/Equatable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/!=(_:_:)"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/!=(_:_:)"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -200,7 +200,7 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
   "abstract" : [
     {
       "text" : "The ",
@@ -215,29 +215,29 @@
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyerUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyer",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -250,7 +250,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category": {
   "abstract" : [
 
   ],
@@ -278,7 +278,7 @@
       "text" : "Category"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -291,7 +291,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters\/category"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category/!=(_:_:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category/!=(_:_:)": {
   "abstract" : [
 
   ],
@@ -346,18 +346,18 @@
       "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/!=(_:_:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/!=(_:_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters\/category\/!=(_:_:)"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category/Equatable-Implementations": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category/Equatable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/Equatable-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/Equatable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Equatable Implementations",

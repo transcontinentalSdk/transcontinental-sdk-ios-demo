@@ -16,19 +16,19 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/toolbar(_:for:)"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/toolbar(_:for:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "SwiftUI",
+    "extendedModule" : "SwiftUICore",
     "externalID" : "s:7SwiftUI4ViewPAAE7toolbar_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtF::SYNTHESIZED::s:16TCDigitalFlyerUI0b4ViewC0V",
     "fragments" : [
       {
@@ -91,7 +91,7 @@
       {
         "name" : "TCDigitalFlyerUI",
         "relatedModules" : [
-          "SwiftUI"
+          "SwiftUICore"
         ]
       }
     ],
@@ -99,29 +99,55 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "16.0",
         "name" : "iOS",
+        "renamed" : "toolbarVisibility(_:for:)",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "16.0",
+        "name" : "iPadOS",
+        "renamed" : "toolbarVisibility(_:for:)",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "renamed" : "toolbarVisibility(_:for:)",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "13.0",
         "name" : "macOS",
+        "renamed" : "toolbarVisibility(_:for:)",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "16.0",
         "name" : "tvOS",
+        "renamed" : "toolbarVisibility(_:for:)",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "9.0",
         "name" : "watchOS",
+        "renamed" : "toolbarVisibility(_:for:)",
         "unavailable" : false
       }
     ],
@@ -141,6 +167,14 @@
             "iOS"
           ],
           "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
             {
               "kind" : "keyword",
               "text" : "func"
@@ -252,7 +286,7 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
   "abstract" : [
     {
       "text" : "The ",
@@ -267,14 +301,14 @@
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyerUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
   "abstract" : [
     {
       "text" : "A custom SwiftUI view that displays the Digital Flyer.",
@@ -303,7 +337,7 @@
       "text" : "FlyerViewUI"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -316,21 +350,22 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/View-Implementations": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/View-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "View Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/view-implementations"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/toolbar(_:for:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/toolbar(_:for:)": {
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -388,7 +423,7 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/toolbar(_:for:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/toolbar(_:for:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "toolbar(_:for:)",

@@ -2,13 +2,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -82,14 +82,18 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle\/init(categoryToggleStyle:discountToggleStyle:)"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle\/init(categoryToggleStyle:discountToggleStyle:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Type-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle\/none"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle\/none"
       ],
       "title" : "Type Properties"
     }
@@ -108,7 +112,7 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
   "abstract" : [
     {
       "text" : "The ",
@@ -123,14 +127,14 @@
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyerUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerFilterStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerFilterStyle": {
   "abstract" : [
 
   ],
@@ -148,7 +152,7 @@
       "text" : "FlyerFilterStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -161,7 +165,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerfilterstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerFilterStyle/init(categoryToggleStyle:discountToggleStyle:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerFilterStyle/init(categoryToggleStyle:discountToggleStyle:)": {
   "abstract" : [
 
   ],
@@ -225,14 +229,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle\/init(categoryToggleStyle:discountToggleStyle:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle\/init(categoryToggleStyle:discountToggleStyle:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(categoryToggleStyle:discountToggleStyle:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerfilterstyle\/init(categorytogglestyle:discounttogglestyle:)"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerFilterStyle/none": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerFilterStyle/none": {
   "abstract" : [
 
   ],
@@ -262,7 +266,7 @@
       "text" : ": `Self`"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle\/none",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle\/none",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "none",

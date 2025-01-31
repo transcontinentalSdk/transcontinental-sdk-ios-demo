@@ -1,4 +1,7 @@
 {
+  "includedArchiveIdentifiers" : [
+    "tcdigitalflyerui.TCDigitalFlyerUI"
+  ],
   "interfaceLanguages" : {
     "swift" : [
       {
@@ -164,8 +167,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/tcdigitalflyerui\/flyermastheadstyle\/init(logo:)",
-                "title" : "init(logo: Image)",
+                "path" : "\/documentation\/tcdigitalflyerui\/flyermastheadstyle\/init(logo:hidden:)",
+                "title" : "init(logo: Image, hidden: Bool)",
                 "type" : "init"
               },
               {
@@ -189,8 +192,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/tcdigitalflyerui\/flyersearchbarstyle\/init(search:filter:)",
-                "title" : "init(search: FlyerSearchStyle, filter: FlyerFilterStyle)",
+                "path" : "\/documentation\/tcdigitalflyerui\/flyersearchbarstyle\/init(search:filter:hidden:)",
+                "title" : "init(search: FlyerSearchStyle, filter: FlyerFilterStyle, hidden: Bool)",
                 "type" : "init"
               },
               {
@@ -396,6 +399,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactions(category:_:)",
+                    "title" : "func accessibilityActions<Content>(category: AccessibilityActionCategory, () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactivationpoint(_:)-7d0pq",
                     "title" : "func accessibilityActivationPoint(CGPoint) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -403,6 +411,16 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactivationpoint(_:)-th9y",
                     "title" : "func accessibilityActivationPoint(UnitPoint) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactivationpoint(_:isenabled:)-1luxw",
+                    "title" : "func accessibilityActivationPoint(CGPoint, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactivationpoint(_:isenabled:)-7qb5i",
+                    "title" : "func accessibilityActivationPoint(UnitPoint, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -471,6 +489,66 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:)-2utbt",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:)-55tv8",
+                    "title" : "func accessibilityDragPoint<S>(UnitPoint, description: S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:)-7kjb1",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:isenabled:)-1bw4f",
+                    "title" : "func accessibilityDragPoint<S>(UnitPoint, description: S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:isenabled:)-4pzdv",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:isenabled:)-5axwv",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:)-38g9v",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:)-5vyog",
+                    "title" : "func accessibilityDropPoint<S>(UnitPoint, description: S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:)-bet5",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:isenabled:)-253xr",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:isenabled:)-3vg7h",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:isenabled:)-870f1",
+                    "title" : "func accessibilityDropPoint<S>(UnitPoint, description: S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityelement(children:)",
                     "title" : "func accessibilityElement(children: AccessibilityChildBehavior) -> some View",
                     "type" : "method"
@@ -496,6 +574,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhidden(_:isenabled:)",
+                    "title" : "func accessibilityHidden(Bool, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhint(_:)-71xpw",
                     "title" : "func accessibilityHint(LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -511,8 +594,28 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhint(_:isenabled:)-6dd1a",
+                    "title" : "func accessibilityHint(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhint(_:isenabled:)-76ven",
+                    "title" : "func accessibilityHint<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhint(_:isenabled:)-8zhkq",
+                    "title" : "func accessibilityHint(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityidentifier(_:)",
                     "title" : "func accessibilityIdentifier(String) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityidentifier(_:isenabled:)",
+                    "title" : "func accessibilityIdentifier(String, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -536,6 +639,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityinputlabels(_:isenabled:)-3hpgw",
+                    "title" : "func accessibilityInputLabels([Text], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityinputlabels(_:isenabled:)-66b2c",
+                    "title" : "func accessibilityInputLabels([LocalizedStringKey], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityinputlabels(_:isenabled:)-8b66j",
+                    "title" : "func accessibilityInputLabels<S>([S], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:)-1ztd3",
                     "title" : "func accessibilityLabel(Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -548,6 +666,26 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:)-8zwlv",
                     "title" : "func accessibilityLabel<S>(S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:isenabled:)-60p15",
+                    "title" : "func accessibilityLabel(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:isenabled:)-84ru4",
+                    "title" : "func accessibilityLabel(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:isenabled:)-8grc0",
+                    "title" : "func accessibilityLabel<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(content:)",
+                    "title" : "func accessibilityLabel<V>(content: (PlaceholderContentView<Self>) -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -573,6 +711,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityrespondstouserinteraction(_:)",
                     "title" : "func accessibilityRespondsToUserInteraction(Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityrespondstouserinteraction(_:isenabled:)",
+                    "title" : "func accessibilityRespondsToUserInteraction(Bool, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -701,6 +844,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityvalue(_:isenabled:)-1d4l2",
+                    "title" : "func accessibilityValue(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityvalue(_:isenabled:)-93ykb",
+                    "title" : "func accessibilityValue<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityvalue(_:isenabled:)-9k88z",
+                    "title" : "func accessibilityValue(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityzoomaction(_:)",
                     "title" : "func accessibilityZoomAction((AccessibilityZoomGestureAction) -> Void) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -822,6 +980,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/allowstightening(_:)",
                     "title" : "func allowsTightening(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/allowswindowactivationevents(_:)",
+                    "title" : "func allowsWindowActivationEvents(Bool?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1124,6 +1287,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/containervalue(_:_:)",
+                    "title" : "func containerValue<V>(WritableKeyPath<ContainerValues, V>, V) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/contentmargins(_:_:for:)-1wrqh",
                     "title" : "func contentMargins(Edge.Set, EdgeInsets, for: ContentMarginPlacement) -> some View",
                     "type" : "method"
@@ -1213,6 +1381,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaultadaptabletabbarplacement(_:)",
+                    "title" : "func defaultAdaptableTabBarPlacement(AdaptableTabBarPlacement) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaultappstorage(_:)",
                     "title" : "func defaultAppStorage(UserDefaults) -> some View",
                     "type" : "method"
@@ -1223,13 +1396,23 @@
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaulthovereffect(_:)",
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaulthovereffect(_:)-1gpdq",
+                    "title" : "func defaultHoverEffect(some CustomHoverEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaulthovereffect(_:)-707nw",
                     "title" : "func defaultHoverEffect(HoverEffect?) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaultscrollanchor(_:)",
                     "title" : "func defaultScrollAnchor(UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaultscrollanchor(_:for:)",
+                    "title" : "func defaultScrollAnchor(UnitPoint?, for: ScrollAnchorRole) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1289,13 +1472,18 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/documentbrowsercontextmenu(_:)",
+                    "title" : "func documentBrowserContextMenu(([URL]?) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/draggable(_:)",
-                    "title" : "func draggable<T>(() -> T) -> some View",
+                    "title" : "func draggable<T>(@autoclosure () -> T) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/draggable(_:preview:)",
-                    "title" : "func draggable<V, T>(() -> T, preview: () -> V) -> some View",
+                    "title" : "func draggable<V, T>(@autoclosure () -> T, preview: () -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1565,6 +1753,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/focusedscenevalue(_:)",
+                    "title" : "func focusedSceneValue<T>(T?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/focusedscenevalue(_:_:)-5altf",
                     "title" : "func focusedSceneValue<T>(WritableKeyPath<FocusedValues, T?>, T) -> some View",
                     "type" : "method"
@@ -1671,8 +1864,23 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/gesture(_:)",
+                    "title" : "func gesture(some UIGestureRecognizerRepresentable) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/gesture(_:including:)",
                     "title" : "func gesture<T>(T, including: GestureMask) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/gesture(_:isenabled:)",
+                    "title" : "func gesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/gesture(_:name:isenabled:)",
+                    "title" : "func gesture<T>(T, name: String, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1703,6 +1911,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/groupboxstyle(_:)",
                     "title" : "func groupBoxStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/handgestureshortcut(_:isenabled:)",
+                    "title" : "func handGestureShortcut(HandGestureShortcut, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1741,13 +1954,28 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/highprioritygesture(_:isenabled:)",
+                    "title" : "func highPriorityGesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/highprioritygesture(_:name:isenabled:)",
+                    "title" : "func highPriorityGesture<T>(T, name: String, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/hovereffect(_:)",
                     "title" : "func hoverEffect(HoverEffect) -> some View",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/hovereffect(_:isenabled:)",
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/hovereffect(_:isenabled:)-2e1pg",
                     "title" : "func hoverEffect(HoverEffect, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/hovereffect(_:isenabled:)-4kckd",
+                    "title" : "func hoverEffect(some CustomHoverEffect, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1871,6 +2099,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/labelsvisibility(_:)",
+                    "title" : "func labelsVisibility(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/layereffect(_:maxsampleoffset:isenabled:)",
                     "title" : "func layerEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
                     "type" : "method"
@@ -1984,6 +2217,21 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/matchedgeometryeffect(id:in:properties:anchor:issource:)",
                     "title" : "func matchedGeometryEffect<ID>(id: ID, in: Namespace.ID, properties: MatchedGeometryProperties, anchor: UnitPoint, isSource: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/matchedtransitionsource(id:in:)",
+                    "title" : "func matchedTransitionSource(id: some Hashable, in: Namespace.ID) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/matchedtransitionsource(id:in:configuration:)",
+                    "title" : "func matchedTransitionSource(id: some Hashable, in: Namespace.ID, configuration: (EmptyMatchedTransitionSourceConfiguration) -> some MatchedTransitionSourceConfiguration) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/materialactiveappearance(_:)",
+                    "title" : "func materialActiveAppearance(MaterialActiveAppearance) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2192,6 +2440,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/navigationtransition(_:)",
+                    "title" : "func navigationTransition(some NavigationTransition) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "deprecated" : true,
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/navigationviewstyle(_:)",
                     "title" : "func navigationViewStyle<S>(S) -> some View",
@@ -2293,6 +2546,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/ongeometrychange(for:of:action:)-245pn",
+                    "title" : "func onGeometryChange<T>(for: T.Type, of: (GeometryProxy) -> T, action: (T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/ongeometrychange(for:of:action:)-leq1",
+                    "title" : "func onGeometryChange<T>(for: T.Type, of: (GeometryProxy) -> T, action: (T, T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onhover(perform:)",
                     "title" : "func onHover(perform: (Bool) -> Void) -> some View",
                     "type" : "method"
@@ -2367,6 +2630,31 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onreceive(_:perform:)",
                     "title" : "func onReceive<P>(P, perform: (P.Output) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrollgeometrychange(for:of:action:)",
+                    "title" : "func onScrollGeometryChange<T>(for: T.Type, of: (ScrollGeometry) -> T, action: (T, T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrollphasechange(_:)-4e838",
+                    "title" : "func onScrollPhaseChange((ScrollPhase, ScrollPhase) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrollphasechange(_:)-5rmsp",
+                    "title" : "func onScrollPhaseChange((ScrollPhase, ScrollPhase, ScrollPhaseChangeContext) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrolltargetvisibilitychange(idtype:threshold:_:)",
+                    "title" : "func onScrollTargetVisibilityChange<ID>(idType: ID.Type, threshold: Double, ([ID]) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrollvisibilitychange(threshold:_:)",
+                    "title" : "func onScrollVisibilityChange(threshold: Double, (Bool) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2468,12 +2756,12 @@
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/popover(ispresented:attachmentanchor:arrowedge:content:)",
-                    "title" : "func popover<Content>(isPresented: Binding<Bool>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge, content: () -> Content) -> some View",
+                    "title" : "func popover<Content>(isPresented: Binding<Bool>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge?, content: () -> Content) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/popover(item:attachmentanchor:arrowedge:content:)",
-                    "title" : "func popover<Item, Content>(item: Binding<Item?>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge, content: (Item) -> Content) -> some View",
+                    "title" : "func popover<Item, Content>(item: Binding<Item?>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge?, content: (Item) -> Content) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2544,6 +2832,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/presentationdragindicator(_:)",
                     "title" : "func presentationDragIndicator(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/presentationsizing(_:)",
+                    "title" : "func presentationSizing(some PresentationSizing) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2727,6 +3020,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/scrollinputbehavior(_:for:)",
+                    "title" : "func scrollInputBehavior(ScrollInputBehavior, for: ScrollInputKind) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/scrollposition(_:anchor:)",
+                    "title" : "func scrollPosition(Binding<ScrollPosition>, anchor: UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/scrollposition(id:anchor:)",
                     "title" : "func scrollPosition(id: Binding<(some Hashable)?>, anchor: UnitPoint?) -> some View",
                     "type" : "method"
@@ -2759,6 +3062,16 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/searchdictationbehavior(_:)",
                     "title" : "func searchDictationBehavior(TextInputDictationBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/searchfocused(_:)",
+                    "title" : "func searchFocused(FocusState<Bool>.Binding) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/searchfocused(_:equals:)",
+                    "title" : "func searchFocused<V>(FocusState<V>.Binding, equals: V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2925,6 +3238,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/sectionactions(content:)",
+                    "title" : "func sectionActions<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/selectiondisabled(_:)",
                     "title" : "func selectionDisabled(Bool) -> some View",
                     "type" : "method"
@@ -2962,6 +3280,16 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/simultaneousgesture(_:including:)",
                     "title" : "func simultaneousGesture<T>(T, including: GestureMask) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/simultaneousgesture(_:isenabled:)",
+                    "title" : "func simultaneousGesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/simultaneousgesture(_:name:isenabled:)",
+                    "title" : "func simultaneousGesture<T>(T, name: String, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3046,8 +3374,29 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabitem(_:)",
                     "title" : "func tabItem<V>(() -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewcustomization(_:)",
+                    "title" : "func tabViewCustomization(Binding<TabViewCustomization>?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewsidebarbottombar(content:)",
+                    "title" : "func tabViewSidebarBottomBar<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewsidebarfooter(content:)",
+                    "title" : "func tabViewSidebarFooter<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewsidebarheader(content:)",
+                    "title" : "func tabViewSidebarHeader<Content>(content: () -> Content) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3066,8 +3415,8 @@
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tag(_:)",
-                    "title" : "func tag<V>(V) -> some View",
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tag(_:includeoptional:)",
+                    "title" : "func tag<V>(V, includeOptional: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3106,6 +3455,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/textrenderer(_:)",
+                    "title" : "func textRenderer<T>(T) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/textscale(_:isenabled:)",
                     "title" : "func textScale(Text.Scale, isEnabled: Bool) -> some View",
                     "type" : "method"
@@ -3113,6 +3467,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/textselection(_:)",
                     "title" : "func textSelection<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/textselectionaffinity(_:)",
+                    "title" : "func textSelectionAffinity(TextSelectionAffinity) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3126,6 +3485,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbar(_:for:)",
                     "title" : "func toolbar(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
@@ -3156,13 +3516,24 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarbackground(_:for:)-8kfp7",
                     "title" : "func toolbarBackground(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarbackgroundvisibility(_:for:)",
+                    "title" : "func toolbarBackgroundVisibility(Visibility, for: ToolbarPlacement...) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarcolorscheme(_:for:)",
                     "title" : "func toolbarColorScheme(ColorScheme?, for: ToolbarPlacement...) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarforegroundstyle(_:for:)",
+                    "title" : "func toolbarForegroundStyle<S>(S, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3178,6 +3549,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbartitlemenu(content:)",
                     "title" : "func toolbarTitleMenu<C>(content: () -> C) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarvisibility(_:for:)",
+                    "title" : "func toolbarVisibility(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3278,6 +3654,16 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/visualeffect(_:)",
                     "title" : "func visualEffect((EmptyVisualEffect, GeometryProxy) -> some VisualEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/windowtoolbarfullscreenvisibility(_:)",
+                    "title" : "func windowToolbarFullScreenVisibility(WindowToolbarFullScreenVisibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/writingtoolsbehavior(_:)",
+                    "title" : "func writingToolsBehavior(WritingToolsBehavior) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3405,6 +3791,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactions(category:_:)",
+                    "title" : "func accessibilityActions<Content>(category: AccessibilityActionCategory, () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactivationpoint(_:)-7d0pq",
                     "title" : "func accessibilityActivationPoint(CGPoint) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -3412,6 +3803,16 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactivationpoint(_:)-th9y",
                     "title" : "func accessibilityActivationPoint(UnitPoint) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactivationpoint(_:isenabled:)-1luxw",
+                    "title" : "func accessibilityActivationPoint(CGPoint, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityactivationpoint(_:isenabled:)-7qb5i",
+                    "title" : "func accessibilityActivationPoint(UnitPoint, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -3480,6 +3881,66 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:)-2utbt",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:)-55tv8",
+                    "title" : "func accessibilityDragPoint<S>(UnitPoint, description: S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:)-7kjb1",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:isenabled:)-1bw4f",
+                    "title" : "func accessibilityDragPoint<S>(UnitPoint, description: S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:isenabled:)-4pzdv",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydragpoint(_:description:isenabled:)-5axwv",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:)-38g9v",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:)-5vyog",
+                    "title" : "func accessibilityDropPoint<S>(UnitPoint, description: S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:)-bet5",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:isenabled:)-253xr",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:isenabled:)-3vg7h",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitydroppoint(_:description:isenabled:)-870f1",
+                    "title" : "func accessibilityDropPoint<S>(UnitPoint, description: S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityelement(children:)",
                     "title" : "func accessibilityElement(children: AccessibilityChildBehavior) -> some View",
                     "type" : "method"
@@ -3505,6 +3966,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhidden(_:isenabled:)",
+                    "title" : "func accessibilityHidden(Bool, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhint(_:)-71xpw",
                     "title" : "func accessibilityHint(LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -3520,8 +3986,28 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhint(_:isenabled:)-6dd1a",
+                    "title" : "func accessibilityHint(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhint(_:isenabled:)-76ven",
+                    "title" : "func accessibilityHint<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityhint(_:isenabled:)-8zhkq",
+                    "title" : "func accessibilityHint(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityidentifier(_:)",
                     "title" : "func accessibilityIdentifier(String) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityidentifier(_:isenabled:)",
+                    "title" : "func accessibilityIdentifier(String, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -3545,6 +4031,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityinputlabels(_:isenabled:)-3hpgw",
+                    "title" : "func accessibilityInputLabels([Text], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityinputlabels(_:isenabled:)-66b2c",
+                    "title" : "func accessibilityInputLabels([LocalizedStringKey], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityinputlabels(_:isenabled:)-8b66j",
+                    "title" : "func accessibilityInputLabels<S>([S], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:)-1ztd3",
                     "title" : "func accessibilityLabel(Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -3557,6 +4058,26 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:)-8zwlv",
                     "title" : "func accessibilityLabel<S>(S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:isenabled:)-60p15",
+                    "title" : "func accessibilityLabel(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:isenabled:)-84ru4",
+                    "title" : "func accessibilityLabel(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(_:isenabled:)-8grc0",
+                    "title" : "func accessibilityLabel<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilitylabel(content:)",
+                    "title" : "func accessibilityLabel<V>(content: (PlaceholderContentView<Self>) -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3582,6 +4103,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityrespondstouserinteraction(_:)",
                     "title" : "func accessibilityRespondsToUserInteraction(Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityrespondstouserinteraction(_:isenabled:)",
+                    "title" : "func accessibilityRespondsToUserInteraction(Bool, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -3710,6 +4236,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityvalue(_:isenabled:)-1d4l2",
+                    "title" : "func accessibilityValue(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityvalue(_:isenabled:)-93ykb",
+                    "title" : "func accessibilityValue<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityvalue(_:isenabled:)-9k88z",
+                    "title" : "func accessibilityValue(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/accessibilityzoomaction(_:)",
                     "title" : "func accessibilityZoomAction((AccessibilityZoomGestureAction) -> Void) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -3831,6 +4372,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/allowstightening(_:)",
                     "title" : "func allowsTightening(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/allowswindowactivationevents(_:)",
+                    "title" : "func allowsWindowActivationEvents(Bool?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4133,6 +4679,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/containervalue(_:_:)",
+                    "title" : "func containerValue<V>(WritableKeyPath<ContainerValues, V>, V) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/contentmargins(_:_:for:)-1wrqh",
                     "title" : "func contentMargins(Edge.Set, EdgeInsets, for: ContentMarginPlacement) -> some View",
                     "type" : "method"
@@ -4222,6 +4773,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaultadaptabletabbarplacement(_:)",
+                    "title" : "func defaultAdaptableTabBarPlacement(AdaptableTabBarPlacement) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaultappstorage(_:)",
                     "title" : "func defaultAppStorage(UserDefaults) -> some View",
                     "type" : "method"
@@ -4232,13 +4788,23 @@
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaulthovereffect(_:)",
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaulthovereffect(_:)-1gpdq",
+                    "title" : "func defaultHoverEffect(some CustomHoverEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaulthovereffect(_:)-707nw",
                     "title" : "func defaultHoverEffect(HoverEffect?) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaultscrollanchor(_:)",
                     "title" : "func defaultScrollAnchor(UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/defaultscrollanchor(_:for:)",
+                    "title" : "func defaultScrollAnchor(UnitPoint?, for: ScrollAnchorRole) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4298,13 +4864,18 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/documentbrowsercontextmenu(_:)",
+                    "title" : "func documentBrowserContextMenu(([URL]?) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/draggable(_:)",
-                    "title" : "func draggable<T>(() -> T) -> some View",
+                    "title" : "func draggable<T>(@autoclosure () -> T) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/draggable(_:preview:)",
-                    "title" : "func draggable<V, T>(() -> T, preview: () -> V) -> some View",
+                    "title" : "func draggable<V, T>(@autoclosure () -> T, preview: () -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4574,6 +5145,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/focusedscenevalue(_:)",
+                    "title" : "func focusedSceneValue<T>(T?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/focusedscenevalue(_:_:)-5altf",
                     "title" : "func focusedSceneValue<T>(WritableKeyPath<FocusedValues, T?>, T) -> some View",
                     "type" : "method"
@@ -4680,8 +5256,23 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/gesture(_:)",
+                    "title" : "func gesture(some UIGestureRecognizerRepresentable) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/gesture(_:including:)",
                     "title" : "func gesture<T>(T, including: GestureMask) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/gesture(_:isenabled:)",
+                    "title" : "func gesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/gesture(_:name:isenabled:)",
+                    "title" : "func gesture<T>(T, name: String, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4712,6 +5303,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/groupboxstyle(_:)",
                     "title" : "func groupBoxStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/handgestureshortcut(_:isenabled:)",
+                    "title" : "func handGestureShortcut(HandGestureShortcut, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4750,13 +5346,28 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/highprioritygesture(_:isenabled:)",
+                    "title" : "func highPriorityGesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/highprioritygesture(_:name:isenabled:)",
+                    "title" : "func highPriorityGesture<T>(T, name: String, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/hovereffect(_:)",
                     "title" : "func hoverEffect(HoverEffect) -> some View",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/hovereffect(_:isenabled:)",
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/hovereffect(_:isenabled:)-2e1pg",
                     "title" : "func hoverEffect(HoverEffect, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/hovereffect(_:isenabled:)-4kckd",
+                    "title" : "func hoverEffect(some CustomHoverEffect, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4880,6 +5491,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/labelsvisibility(_:)",
+                    "title" : "func labelsVisibility(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/layereffect(_:maxsampleoffset:isenabled:)",
                     "title" : "func layerEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
                     "type" : "method"
@@ -4993,6 +5609,21 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/matchedgeometryeffect(id:in:properties:anchor:issource:)",
                     "title" : "func matchedGeometryEffect<ID>(id: ID, in: Namespace.ID, properties: MatchedGeometryProperties, anchor: UnitPoint, isSource: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/matchedtransitionsource(id:in:)",
+                    "title" : "func matchedTransitionSource(id: some Hashable, in: Namespace.ID) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/matchedtransitionsource(id:in:configuration:)",
+                    "title" : "func matchedTransitionSource(id: some Hashable, in: Namespace.ID, configuration: (EmptyMatchedTransitionSourceConfiguration) -> some MatchedTransitionSourceConfiguration) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/materialactiveappearance(_:)",
+                    "title" : "func materialActiveAppearance(MaterialActiveAppearance) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5201,6 +5832,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/navigationtransition(_:)",
+                    "title" : "func navigationTransition(some NavigationTransition) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "deprecated" : true,
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/navigationviewstyle(_:)",
                     "title" : "func navigationViewStyle<S>(S) -> some View",
@@ -5302,6 +5938,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/ongeometrychange(for:of:action:)-245pn",
+                    "title" : "func onGeometryChange<T>(for: T.Type, of: (GeometryProxy) -> T, action: (T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/ongeometrychange(for:of:action:)-leq1",
+                    "title" : "func onGeometryChange<T>(for: T.Type, of: (GeometryProxy) -> T, action: (T, T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onhover(perform:)",
                     "title" : "func onHover(perform: (Bool) -> Void) -> some View",
                     "type" : "method"
@@ -5376,6 +6022,31 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onreceive(_:perform:)",
                     "title" : "func onReceive<P>(P, perform: (P.Output) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrollgeometrychange(for:of:action:)",
+                    "title" : "func onScrollGeometryChange<T>(for: T.Type, of: (ScrollGeometry) -> T, action: (T, T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrollphasechange(_:)-4e838",
+                    "title" : "func onScrollPhaseChange((ScrollPhase, ScrollPhase) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrollphasechange(_:)-5rmsp",
+                    "title" : "func onScrollPhaseChange((ScrollPhase, ScrollPhase, ScrollPhaseChangeContext) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrolltargetvisibilitychange(idtype:threshold:_:)",
+                    "title" : "func onScrollTargetVisibilityChange<ID>(idType: ID.Type, threshold: Double, ([ID]) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onscrollvisibilitychange(threshold:_:)",
+                    "title" : "func onScrollVisibilityChange(threshold: Double, (Bool) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5477,12 +6148,12 @@
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/popover(ispresented:attachmentanchor:arrowedge:content:)",
-                    "title" : "func popover<Content>(isPresented: Binding<Bool>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge, content: () -> Content) -> some View",
+                    "title" : "func popover<Content>(isPresented: Binding<Bool>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge?, content: () -> Content) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/popover(item:attachmentanchor:arrowedge:content:)",
-                    "title" : "func popover<Item, Content>(item: Binding<Item?>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge, content: (Item) -> Content) -> some View",
+                    "title" : "func popover<Item, Content>(item: Binding<Item?>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge?, content: (Item) -> Content) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5553,6 +6224,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/presentationdragindicator(_:)",
                     "title" : "func presentationDragIndicator(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/presentationsizing(_:)",
+                    "title" : "func presentationSizing(some PresentationSizing) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5736,6 +6412,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/scrollinputbehavior(_:for:)",
+                    "title" : "func scrollInputBehavior(ScrollInputBehavior, for: ScrollInputKind) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/scrollposition(_:anchor:)",
+                    "title" : "func scrollPosition(Binding<ScrollPosition>, anchor: UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/scrollposition(id:anchor:)",
                     "title" : "func scrollPosition(id: Binding<(some Hashable)?>, anchor: UnitPoint?) -> some View",
                     "type" : "method"
@@ -5768,6 +6454,16 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/searchdictationbehavior(_:)",
                     "title" : "func searchDictationBehavior(TextInputDictationBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/searchfocused(_:)",
+                    "title" : "func searchFocused(FocusState<Bool>.Binding) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/searchfocused(_:equals:)",
+                    "title" : "func searchFocused<V>(FocusState<V>.Binding, equals: V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5934,6 +6630,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/sectionactions(content:)",
+                    "title" : "func sectionActions<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/selectiondisabled(_:)",
                     "title" : "func selectionDisabled(Bool) -> some View",
                     "type" : "method"
@@ -5971,6 +6672,16 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/simultaneousgesture(_:including:)",
                     "title" : "func simultaneousGesture<T>(T, including: GestureMask) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/simultaneousgesture(_:isenabled:)",
+                    "title" : "func simultaneousGesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/simultaneousgesture(_:name:isenabled:)",
+                    "title" : "func simultaneousGesture<T>(T, name: String, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6055,8 +6766,29 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabitem(_:)",
                     "title" : "func tabItem<V>(() -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewcustomization(_:)",
+                    "title" : "func tabViewCustomization(Binding<TabViewCustomization>?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewsidebarbottombar(content:)",
+                    "title" : "func tabViewSidebarBottomBar<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewsidebarfooter(content:)",
+                    "title" : "func tabViewSidebarFooter<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewsidebarheader(content:)",
+                    "title" : "func tabViewSidebarHeader<Content>(content: () -> Content) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6075,8 +6807,8 @@
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tag(_:)",
-                    "title" : "func tag<V>(V) -> some View",
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tag(_:includeoptional:)",
+                    "title" : "func tag<V>(V, includeOptional: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6115,6 +6847,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/textrenderer(_:)",
+                    "title" : "func textRenderer<T>(T) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/textscale(_:isenabled:)",
                     "title" : "func textScale(Text.Scale, isEnabled: Bool) -> some View",
                     "type" : "method"
@@ -6122,6 +6859,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/textselection(_:)",
                     "title" : "func textSelection<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/textselectionaffinity(_:)",
+                    "title" : "func textSelectionAffinity(TextSelectionAffinity) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6135,6 +6877,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbar(_:for:)",
                     "title" : "func toolbar(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
@@ -6165,13 +6908,24 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarbackground(_:for:)-8kfp7",
                     "title" : "func toolbarBackground(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarbackgroundvisibility(_:for:)",
+                    "title" : "func toolbarBackgroundVisibility(Visibility, for: ToolbarPlacement...) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarcolorscheme(_:for:)",
                     "title" : "func toolbarColorScheme(ColorScheme?, for: ToolbarPlacement...) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarforegroundstyle(_:for:)",
+                    "title" : "func toolbarForegroundStyle<S>(S, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6187,6 +6941,11 @@
                   {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbartitlemenu(content:)",
                     "title" : "func toolbarTitleMenu<C>(content: () -> C) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/toolbarvisibility(_:for:)",
+                    "title" : "func toolbarVisibility(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6290,6 +7049,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/windowtoolbarfullscreenvisibility(_:)",
+                    "title" : "func windowToolbarFullScreenVisibility(WindowToolbarFullScreenVisibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/writingtoolsbehavior(_:)",
+                    "title" : "func writingToolsBehavior(WritingToolsBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/zindex(_:)",
                     "title" : "func zIndex(Double) -> some View",
                     "type" : "method"
@@ -6359,12 +7128,12 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyerui\/swiftui\/view\/flyerstyle(_:)",
+                    "path" : "\/documentation\/tcdigitalflyerui\/swiftuicore\/view\/flyerstyle(_:)",
                     "title" : "func flyerStyle(FlyerStyle) -> some View",
                     "type" : "method"
                   }
                 ],
-                "path" : "\/documentation\/tcdigitalflyerui\/swiftui\/view",
+                "path" : "\/documentation\/tcdigitalflyerui\/swiftuicore\/view",
                 "title" : "View",
                 "type" : "extension"
               },
@@ -6379,18 +7148,18 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/tcdigitalflyerui\/swiftui\/binding\/init(_:comparingto:)",
+                    "path" : "\/documentation\/tcdigitalflyerui\/swiftuicore\/binding\/init(_:comparingto:)",
                     "title" : "init<T>(Binding<T?>, comparingTo: T)",
                     "type" : "init"
                   }
                 ],
-                "path" : "\/documentation\/tcdigitalflyerui\/swiftui\/binding",
+                "path" : "\/documentation\/tcdigitalflyerui\/swiftuicore\/binding",
                 "title" : "Binding",
                 "type" : "extension"
               }
             ],
-            "path" : "\/documentation\/tcdigitalflyerui\/swiftui",
-            "title" : "SwiftUI",
+            "path" : "\/documentation\/tcdigitalflyerui\/swiftuicore",
+            "title" : "SwiftUICore",
             "type" : "extension"
           },
           {
@@ -6473,6 +7242,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 1
+    "patch" : 2
   }
 }

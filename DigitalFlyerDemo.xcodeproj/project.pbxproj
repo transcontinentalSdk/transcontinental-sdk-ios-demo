@@ -11,20 +11,37 @@
 		330C29572C6FBECB00F3B391 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C29562C6FBECB00F3B391 /* ContentView.swift */; };
 		330C29592C6FBECC00F3B391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330C29582C6FBECC00F3B391 /* Assets.xcassets */; };
 		330C295C2C6FBECC00F3B391 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330C295B2C6FBECC00F3B391 /* Preview Assets.xcassets */; };
+		330CE8922D4D4893000D03B7 /* TCDigitalFlyerUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330CE8902D4D4893000D03B7 /* TCDigitalFlyerUI.xcframework */; };
+		330CE8932D4D4893000D03B7 /* TCDigitalFlyerUI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 330CE8902D4D4893000D03B7 /* TCDigitalFlyerUI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		330CE8942D4D4893000D03B7 /* TCDigitalFlyer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330CE8912D4D4893000D03B7 /* TCDigitalFlyer.xcframework */; };
+		330CE8952D4D4893000D03B7 /* TCDigitalFlyer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 330CE8912D4D4893000D03B7 /* TCDigitalFlyer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		335EA5032C70156D008E824F /* MyCustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EA5022C70156D008E824F /* MyCustomStyle.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		330CE8962D4D4893000D03B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				330CE8952D4D4893000D03B7 /* TCDigitalFlyer.xcframework in Embed Frameworks */,
+				330CE8932D4D4893000D03B7 /* TCDigitalFlyerUI.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		330308012C6FE275008BE818 /* TCDigitalFlyer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TCDigitalFlyer.xcframework; path = ../../../../Desktop/TCDigitalFlyer.xcframework; sourceTree = "<group>"; };
 		330C29512C6FBECB00F3B391 /* DigitalFlyerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalFlyerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		330C29542C6FBECB00F3B391 /* DigitalFlyerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalFlyerDemoApp.swift; sourceTree = "<group>"; };
 		330C29562C6FBECB00F3B391 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		330C29582C6FBECC00F3B391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		330C295B2C6FBECC00F3B391 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3342F01F2C6FE69600DAA7FD /* TCDigitalFlyerUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TCDigitalFlyerUI.xcframework; path = ../../../../Desktop/TCDigitalFlyerUI.xcframework; sourceTree = "<group>"; };
+		330CE8902D4D4893000D03B7 /* TCDigitalFlyerUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TCDigitalFlyerUI.xcframework; path = Frameworks/TCDigitalFlyerUI.xcframework; sourceTree = "<group>"; };
+		330CE8912D4D4893000D03B7 /* TCDigitalFlyer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TCDigitalFlyer.xcframework; path = Frameworks/TCDigitalFlyer.xcframework; sourceTree = "<group>"; };
 		335EA5022C70156D008E824F /* MyCustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomStyle.swift; sourceTree = "<group>"; };
-		338F01262C6FD85F007146BF /* TCDigitalFlyerUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TCDigitalFlyerUI.xcframework; path = "../../sdk-ios-internal/output/TCDigitalFlyerUI.xcframework"; sourceTree = "<group>"; };
-		338F012A2C6FDBF3007146BF /* TCDigitalFlyer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TCDigitalFlyer.xcframework; path = "../../sdk-ios-internal/output/TCDigitalFlyer.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330CE8942D4D4893000D03B7 /* TCDigitalFlyer.xcframework in Frameworks */,
+				330CE8922D4D4893000D03B7 /* TCDigitalFlyerUI.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +97,8 @@
 		338F01252C6FD85F007146BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3342F01F2C6FE69600DAA7FD /* TCDigitalFlyerUI.xcframework */,
-				338F012A2C6FDBF3007146BF /* TCDigitalFlyer.xcframework */,
-				330308012C6FE275008BE818 /* TCDigitalFlyer.xcframework */,
-				338F01262C6FD85F007146BF /* TCDigitalFlyerUI.xcframework */,
+				330CE8912D4D4893000D03B7 /* TCDigitalFlyer.xcframework */,
+				330CE8902D4D4893000D03B7 /* TCDigitalFlyerUI.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +113,7 @@
 				330C294D2C6FBECB00F3B391 /* Sources */,
 				330C294E2C6FBECB00F3B391 /* Frameworks */,
 				330C294F2C6FBECB00F3B391 /* Resources */,
+				330CE8962D4D4893000D03B7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

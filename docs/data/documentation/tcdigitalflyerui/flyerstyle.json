@@ -8,13 +8,13 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -100,7 +100,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
               "isActive" : true,
               "type" : "reference"
             },
@@ -117,7 +117,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
               "isActive" : true,
               "type" : "reference"
             },
@@ -147,7 +147,7 @@
         },
         {
           "code" : [
-            "FlyerViewUI(...) { event in ",
+            "FlyerViewUI(...) { event in",
             "    ...",
             "}",
             ".flyerStyle(.myCustomFlyerStyle)"
@@ -162,7 +162,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
               "isActive" : true,
               "type" : "reference"
             },
@@ -179,7 +179,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
               "isActive" : true,
               "type" : "reference"
             },
@@ -188,7 +188,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
               "isActive" : true,
               "type" : "reference"
             },
@@ -201,7 +201,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
               "isActive" : true,
               "type" : "reference"
             },
@@ -210,7 +210,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
               "isActive" : true,
               "type" : "reference"
             },
@@ -262,7 +262,7 @@
             "        configuration.label",
             "            .foregroundColor(configuration.isPressed ? .myTheme.gray : .myTheme.red)",
             "    }",
-            "} ",
+            "}",
             "",
             "..."
           ],
@@ -283,14 +283,18 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:)"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Type-Properties",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/none"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/none"
       ],
       "title" : "Type Properties"
     }
@@ -309,7 +313,7 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
   "abstract" : [
     {
       "text" : "The ",
@@ -324,14 +328,14 @@
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyerUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyButtonStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyButtonStyle": {
   "abstract" : [
 
   ],
@@ -349,7 +353,7 @@
       "text" : "AnyButtonStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyButtonStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -362,7 +366,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/anybuttonstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyPrimitiveButtonStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyPrimitiveButtonStyle": {
   "abstract" : [
 
   ],
@@ -380,7 +384,7 @@
       "text" : "AnyPrimitiveButtonStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyPrimitiveButtonStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -393,7 +397,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/anyprimitivebuttonstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyTextFieldStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyTextFieldStyle": {
   "abstract" : [
     {
       "text" : "A type-erased ",
@@ -422,7 +426,7 @@
       "text" : "AnyTextFieldStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyTextFieldStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -435,7 +439,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/anytextfieldstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyToggleStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/AnyToggleStyle": {
   "abstract" : [
 
   ],
@@ -453,7 +457,7 @@
       "text" : "AnyToggleStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/AnyToggleStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -466,7 +470,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/anytogglestyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle": {
   "abstract" : [
     {
       "text" : "The entrypoint to styling the FlyerViewUI",
@@ -487,7 +491,7 @@
       "text" : "FlyerStyle"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -500,7 +504,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/init(masthead:searchBar:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/init(masthead:searchBar:)": {
   "abstract" : [
 
   ],
@@ -548,14 +552,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(masthead:searchBar:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle\/init(masthead:searchbar:)"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/none": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/none": {
   "abstract" : [
 
   ],
@@ -585,14 +589,14 @@
       "text" : ": `Self`"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/none",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/none",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "none",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle\/none"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI": {
   "abstract" : [
     {
       "text" : "A custom SwiftUI view that displays the Digital Flyer.",
@@ -621,7 +625,7 @@
       "text" : "FlyerViewUI"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
   "kind" : "symbol",
   "navigatorTitle" : [
     {

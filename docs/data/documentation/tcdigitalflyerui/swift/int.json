@@ -2,14 +2,14 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift\/Int"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift\/Int"
   },
   "kind" : "symbol",
   "metadata" : {
@@ -82,7 +82,8 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/s12IdentifiableP"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/s8CopyableP",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/s12IdentifiableP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -99,9 +100,10 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift\/Int\/Identifiable-Implementations"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift\/Int\/Identifiable-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -120,7 +122,7 @@
   ]
 , 
 "references": {
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI": {
   "abstract" : [
     {
       "text" : "The ",
@@ -135,25 +137,25 @@
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "TCDigitalFlyerUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/Swift": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/Swift": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift",
   "kind" : "symbol",
   "role" : "collection",
   "title" : "Swift",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/swift"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/Swift/Int": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/Swift/Int": {
   "abstract" : [
 
   ],
@@ -172,7 +174,7 @@
       "text" : "Int"
     }
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift\/Int",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift\/Int",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -185,20 +187,25 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/swift\/int"
 },
-"doc://TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/Swift/Int/Identifiable-Implementations": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/Swift/Int/Identifiable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift\/Int\/Identifiable-Implementations",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/Swift\/Int\/Identifiable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Identifiable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/swift\/int\/identifiable-implementations"
 },
-"doc://TCDigitalFlyerUI/s12IdentifiableP": {
-  "identifier" : "doc:\/\/TCDigitalFlyerUI\/s12IdentifiableP",
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/s12IdentifiableP": {
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/s12IdentifiableP",
   "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+},
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/s8CopyableP": {
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/s8CopyableP",
+  "title" : "Swift.Copyable",
   "type" : "unresolvable"
 }
 }

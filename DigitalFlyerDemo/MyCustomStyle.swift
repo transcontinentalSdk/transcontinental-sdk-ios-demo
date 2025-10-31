@@ -15,14 +15,14 @@ extension FlyerStyle {
             searchBar: .init(
                 search: .init(
                     searchTextField: SearchTextFieldStyle(),
-                    filterToggleStyle: FilterToggleStyle(),
-                    resetButtonStyle: ResetButtonStyle()
+                    filterToggleStyle: FilterToggleStyle()
                 ),
                 filter: .init(
                     categoryToggleStyle: FilterToggleStyle(),
                     discountToggleStyle: FilterToggleStyle()
                 )
-            )
+            ),
+            pageIndicator: .init(isDisabled: false)
         )
     }
 }
@@ -38,8 +38,9 @@ struct SearchTextFieldStyle: TextFieldStyle {
             HStack {
                 Image(systemName: "magnifyingglass")
                 configuration
-            }.foregroundStyle(Color.gray)
-                .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 0))
+            }
+            .foregroundStyle(Color.black)
+            .padding(.leading, 8)
         }.frame(height: 36)
     }
 }
@@ -48,40 +49,26 @@ struct FilterToggleStyle: ToggleStyle {
     private let cornerRadius = 16.0
 
     func makeBody(configuration: Configuration) -> some View {
+        let isActive =
+            if #available(iOS 16.0, *) {
+                configuration.isOn || configuration.isMixed
+            } else {
+                configuration.isOn
+            }
         configuration.label
             .onTapGesture {
                 withAnimation {
                     configuration.isOn.toggle()
                 }
             }
-            .foregroundColor(configuration.isOn ? .white : .black)
-            .frame(width: 88, height: 36)
-            .background(configuration.isOn ? .black : .white)
+            .frame(height: 36)
+            .padding(.horizontal, 8)
+            .foregroundColor(isActive ? .white : .black)
+            .background(isActive ? .black : .white)
             .cornerRadius(cornerRadius)
             .overlay(
                 RoundedRectangle(cornerRadius: cornerRadius)
                     .stroke(Color(red: 0.31, green: 0.31, blue: 0.31), lineWidth: 1)
             )
-    }
-}
-
-struct FilterButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .foregroundColor(.black)
-            .frame(width: 88, height: 36)
-            .overlay(
-                RoundedRectangle(cornerRadius: 17.5)
-                    .stroke(Color(red: 0.31, green: 0.31, blue: 0.31), lineWidth: 1)
-            )
-    }
-}
-
-struct ResetButtonStyle: ButtonStyle {
-    @SwiftUI.Environment(\.isEnabled) var isEnabled
-
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .foregroundColor(configuration.isPressed ? .gray : .red)
     }
 }

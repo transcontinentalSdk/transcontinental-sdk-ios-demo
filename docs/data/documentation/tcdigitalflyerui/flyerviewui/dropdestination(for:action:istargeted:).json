@@ -13,12 +13,22 @@
       "type" : "text"
     }
   ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
-        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
-        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI"
       ]
     ]
   },
@@ -157,28 +167,36 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "16.0",
+        "message" : "Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.",
         "name" : "iOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "16.0",
+        "message" : "Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.",
         "name" : "iPadOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "16.0",
+        "message" : "Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.",
         "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "13.0",
+        "message" : "Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.",
         "name" : "macOS",
         "unavailable" : false
       }
@@ -264,12 +282,12 @@
               "text" : ": "
             },
             {
-              "kind" : "keyword",
-              "text" : "@escaping"
+              "kind" : "attribute",
+              "text" : "@escaping "
             },
             {
               "kind" : "text",
-              "text" : " (["
+              "text" : "(["
             },
             {
               "kind" : "typeIdentifier",
@@ -306,12 +324,12 @@
               "text" : ": "
             },
             {
-              "kind" : "keyword",
-              "text" : "@escaping"
+              "kind" : "attribute",
+              "text" : "@escaping "
             },
             {
               "kind" : "text",
-              "text" : " ("
+              "text" : "("
             },
             {
               "kind" : "typeIdentifier",
@@ -465,21 +483,11 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui"
 },
-"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/view-implementations"
-},
 "doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/dropDestination(for:action:isTargeted:)": {
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",

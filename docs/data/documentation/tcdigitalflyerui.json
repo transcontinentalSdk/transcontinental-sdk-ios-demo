@@ -77,7 +77,7 @@
                 {
                   "inlineContent" : [
                     {
-                      "text" : "XCode (>= 16.0)",
+                      "text" : "XCode (>= 16.1)",
                       "type" : "text"
                     }
                   ],
@@ -408,6 +408,7 @@
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/DefaultButtonStyle",
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerFilterStyle",
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle",
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerPageIndicatorStyle",
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchBarStyle",
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle",
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
@@ -689,6 +690,37 @@
   "title" : "FlyerMastheadStyle",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyermastheadstyle"
+},
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerPageIndicatorStyle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FlyerPageIndicatorStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerPageIndicatorStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FlyerPageIndicatorStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FlyerPageIndicatorStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/flyerpageindicatorstyle"
 },
 "doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchBarStyle": {
   "abstract" : [

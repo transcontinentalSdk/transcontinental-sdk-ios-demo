@@ -1,6 +1,6 @@
 {
   "bundleDisplayName" : "TCDigitalFlyerUI",
-  "bundleIdentifier" : "tcdigitalflyerui.TCDigitalFlyerUI",
+  "bundleID" : "tcdigitalflyerui.TCDigitalFlyerUI",
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,

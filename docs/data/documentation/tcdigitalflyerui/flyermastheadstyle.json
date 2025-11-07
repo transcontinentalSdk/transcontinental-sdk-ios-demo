@@ -85,7 +85,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle\/init(logo:hidden:)"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle\/init(logo:isDisabled:)"
       ],
       "title" : "Initializers"
     },
@@ -165,7 +165,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyermastheadstyle"
 },
-"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerMastheadStyle/init(logo:hidden:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerMastheadStyle/init(logo:isDisabled:)": {
   "abstract" : [
 
   ],
@@ -197,7 +197,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "hidden"
+      "text" : "isDisabled"
     },
     {
       "kind" : "text",
@@ -213,12 +213,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle\/init(logo:hidden:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerMastheadStyle\/init(logo:isDisabled:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(logo:hidden:)",
+  "title" : "init(logo:isDisabled:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyerui\/flyermastheadstyle\/init(logo:hidden:)"
+  "url" : "\/documentation\/tcdigitalflyerui\/flyermastheadstyle\/init(logo:isdisabled:)"
 },
 "doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerMastheadStyle/none": {
   "abstract" : [

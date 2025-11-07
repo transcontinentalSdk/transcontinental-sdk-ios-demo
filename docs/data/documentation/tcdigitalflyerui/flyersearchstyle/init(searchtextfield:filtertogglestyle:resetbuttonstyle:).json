@@ -1,4 +1,15 @@
 {
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "`resetButtonStyle` was removed in favour of per-element filter control. Use `init(searchTextField:filterToggleStyle:)` instead.",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -102,6 +113,14 @@
     "modules" : [
       {
         "name" : "TCDigitalFlyerUI"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "`resetButtonStyle` was removed in favour of per-element filter control. Use `init(searchTextField:filterToggleStyle:)` instead.",
+        "unavailable" : false
       }
     ],
     "role" : "symbol",
@@ -288,6 +307,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "identifier",

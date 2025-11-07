@@ -19,8 +19,7 @@
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer",
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters",
-        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category",
-        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/Equatable-Implementations"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category"
       ]
     ]
   },
@@ -412,17 +411,6 @@
   "title" : "==(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters\/category\/==(_:_:)"
-},
-"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/TCDigitalFlyer/Filters/Category/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/TCDigitalFlyer\/Filters\/Category\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyerui\/tcdigitalflyer\/filters\/category\/equatable-implementations"
 }
 }
 }

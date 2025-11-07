@@ -85,6 +85,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle\/init(searchTextField:filterToggleStyle:)",
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle\/init(searchTextField:filterToggleStyle:resetButtonStyle:)"
       ],
       "title" : "Initializers"
@@ -165,10 +166,82 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyersearchstyle"
 },
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchStyle/init(searchTextField:filterToggleStyle:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "searchTextField"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI14TextFieldStyleP",
+      "text" : "TextFieldStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "filterToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI11ToggleStyleP",
+      "text" : "ToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle\/init(searchTextField:filterToggleStyle:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(searchTextField:filterToggleStyle:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/flyersearchstyle\/init(searchtextfield:filtertogglestyle:)"
+},
 "doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchStyle/init(searchTextField:filterToggleStyle:resetButtonStyle:)": {
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "identifier",

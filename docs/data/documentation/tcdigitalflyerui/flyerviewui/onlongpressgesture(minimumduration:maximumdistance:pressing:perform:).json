@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI",
-        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI",
-        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI"
       ]
     ]
   },
@@ -187,6 +186,14 @@
         "beta" : false,
         "deprecated" : false,
         "deprecatedAt" : "100000.0",
+        "name" : "visionOS",
+        "renamed" : "onLongPressGesture(minimumDuration:maximumDuration:perform:onPressingChanged:)",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
         "introducedAt" : "6.0",
         "name" : "watchOS",
         "renamed" : "onLongPressGesture(minimumDuration:maximumDuration:perform:onPressingChanged:)",
@@ -310,12 +317,12 @@
               "text" : ": "
             },
             {
-              "kind" : "keyword",
-              "text" : "@escaping"
+              "kind" : "attribute",
+              "text" : "@escaping "
             },
             {
               "kind" : "text",
-              "text" : " () -> "
+              "text" : "() -> "
             },
             {
               "kind" : "typeIdentifier",
@@ -434,17 +441,6 @@
   "title" : "FlyerViewUI",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui"
-},
-"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/view-implementations"
 },
 "doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/onLongPressGesture(minimumDuration:maximumDistance:pressing:perform:)": {
   "abstract" : [

@@ -286,7 +286,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:)"
+        "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:pageIndicator:)"
       ],
       "title" : "Initializers"
     },
@@ -504,7 +504,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle"
 },
-"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/init(masthead:searchBar:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/init(masthead:searchBar:pageIndicator:)": {
   "abstract" : [
 
   ],
@@ -549,15 +549,32 @@
     },
     {
       "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "pageIndicator"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16TCDigitalFlyerUI0B18PageIndicatorStyleV",
+      "text" : "FlyerPageIndicatorStyle"
+    },
+    {
+      "kind" : "text",
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle\/init(masthead:searchBar:pageIndicator:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(masthead:searchBar:)",
+  "title" : "init(masthead:searchBar:pageIndicator:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle\/init(masthead:searchbar:)"
+  "url" : "\/documentation\/tcdigitalflyerui\/flyerstyle\/init(masthead:searchbar:pageindicator:)"
 },
 "doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle/none": {
   "abstract" : [

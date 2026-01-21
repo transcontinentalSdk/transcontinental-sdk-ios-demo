@@ -368,9 +368,46 @@
           "type" : "paragraph"
         },
         {
+          "anchor" : "Deprecations-or-Breaking-Style-Changes",
+          "level" : 3,
+          "text" : "Deprecations or Breaking Style Changes",
+          "type" : "heading"
+        },
+        {
           "inlineContent" : [
             {
-              "text" : "Note: As the ",
+              "text" : "As ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerStyle",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " does not represent core rendering functionality, breaking changes to the style parameters will ",
+              "type" : "text"
+            },
+            {
+              "inlineContent" : [
+                {
+                  "text" : "not",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            },
+            {
+              "text" : " result in a major SDK version update.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Below are versions of the SDK which introduced deprecations or breaking ",
               "type" : "text"
             },
             {
@@ -378,7 +415,44 @@
               "type" : "codeVoice"
             },
             {
-              "text" : " does not represent core rendering functionality, breaking changes to the style parameters will not result in a major SDK version update.",
+              "text" : " changes:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "243-2025-10-31",
+          "level" : 4,
+          "text" : "2.4.3 (2025-10-31):",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle\/init(searchTextField:filterToggleStyle:resetButtonStyle:)",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " was deprecated as ",
+              "type" : "text"
+            },
+            {
+              "code" : "resetButtonStyle",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " was removed in favour of per-element filter control. Use ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle\/init(searchTextField:filterToggleStyle:)",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " instead.",
               "type" : "text"
             }
           ],
@@ -783,6 +857,174 @@
   "title" : "FlyerSearchStyle",
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyersearchstyle"
+},
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchStyle/init(searchTextField:filterToggleStyle:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "searchTextField"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI14TextFieldStyleP",
+      "text" : "TextFieldStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "filterToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI11ToggleStyleP",
+      "text" : "ToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle\/init(searchTextField:filterToggleStyle:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(searchTextField:filterToggleStyle:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/flyersearchstyle\/init(searchtextfield:filtertogglestyle:)"
+},
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerSearchStyle/init(searchTextField:filterToggleStyle:resetButtonStyle:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "searchTextField"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI14TextFieldStyleP",
+      "text" : "TextFieldStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "filterToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI11ToggleStyleP",
+      "text" : "ToggleStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "resetButtonStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI11ButtonStyleP",
+      "text" : "ButtonStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerSearchStyle\/init(searchTextField:filterToggleStyle:resetButtonStyle:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(searchTextField:filterToggleStyle:resetButtonStyle:)",
+  "type" : "topic",
+  "url" : "\/documentation\/tcdigitalflyerui\/flyersearchstyle\/init(searchtextfield:filtertogglestyle:resetbuttonstyle:)"
 },
 "doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerStyle": {
   "abstract" : [

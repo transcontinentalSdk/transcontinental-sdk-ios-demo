@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "View.onPencilSqueeze(perform:)",
+      "code" : "View.tabViewBottomAccessory(isEnabled:content:)",
       "type" : "codeVoice"
     },
     {
@@ -23,12 +23,12 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/onPencilSqueeze(perform:)"
+    "url" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/tabViewBottomAccessory(isEnabled:content:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftUICore",
-    "externalID" : "s:7SwiftUI4ViewPAAE15onPencilSqueeze7performQryAA0eF12GesturePhaseOc_tF::SYNTHESIZED::s:16TCDigitalFlyerUI0b4ViewC0V",
+    "externalID" : "s:7SwiftUI4ViewPAAE03tabC15BottomAccessory9isEnabled7contentQrSb_qd__yXEtAaBRd__lF::SYNTHESIZED::s:16TCDigitalFlyerUI0b4ViewC0V",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -40,33 +40,48 @@
       },
       {
         "kind" : "identifier",
-        "text" : "onPencilSqueeze"
+        "text" : "tabViewBottomAccessory"
       },
       {
         "kind" : "text",
-        "text" : "("
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "Content"
+      },
+      {
+        "kind" : "text",
+        "text" : ">("
       },
       {
         "kind" : "externalParam",
-        "text" : "perform"
+        "text" : "isEnabled"
       },
       {
         "kind" : "text",
-        "text" : ": ("
+        "text" : ": "
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7SwiftUI25PencilSqueezeGesturePhaseO",
-        "text" : "PencilSqueezeGesturePhase"
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
       },
       {
         "kind" : "text",
-        "text" : ") -> "
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "content"
+      },
+      {
+        "kind" : "text",
+        "text" : ": () -> "
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:s4Voida",
-        "text" : "Void"
+        "text" : "Content"
       },
       {
         "kind" : "text",
@@ -98,43 +113,29 @@
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "17.5",
+        "introducedAt" : "26.1",
         "name" : "iOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "17.5",
+        "introducedAt" : "26.1",
         "name" : "iPadOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "17.5",
+        "introducedAt" : "26.1",
         "name" : "Mac Catalyst",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "14.5",
-        "name" : "macOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "26.2",
-        "name" : "visionOS",
         "unavailable" : false
       }
     ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "onPencilSqueeze(perform:)"
+    "title" : "tabViewBottomAccessory(isEnabled:content:)"
   },
   "primaryContentSections" : [
     {
@@ -165,49 +166,61 @@
             },
             {
               "kind" : "identifier",
-              "text" : "onPencilSqueeze"
+              "text" : "tabViewBottomAccessory"
             },
             {
               "kind" : "text",
-              "text" : "("
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Content"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
             },
             {
               "kind" : "externalParam",
-              "text" : "perform"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "action"
+              "text" : "isEnabled"
             },
             {
               "kind" : "text",
               "text" : ": "
             },
             {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
               "kind" : "attribute",
-              "text" : "@escaping "
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:7SwiftUI11ViewBuilderV",
+              "text" : "ViewBuilder"
             },
             {
               "kind" : "text",
-              "text" : "("
+              "text" : " "
             },
             {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7SwiftUI25PencilSqueezeGesturePhaseO",
-              "text" : "PencilSqueezeGesturePhase"
+              "kind" : "externalParam",
+              "text" : "content"
             },
             {
               "kind" : "text",
-              "text" : ") -> "
+              "text" : ": () -> "
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:s4Voida",
-              "text" : "Void"
+              "text" : "Content"
             },
             {
               "kind" : "text",
@@ -220,6 +233,31 @@
             {
               "kind" : "text",
               "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Content"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
             },
             {
               "kind" : "typeIdentifier",
@@ -247,7 +285,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/tcdigitalflyerui\/flyerviewui\/onpencilsqueeze(perform:)"
+        "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewbottomaccessory(isenabled:content:)"
       ],
       "traits" : [
         {
@@ -322,7 +360,7 @@
   "type" : "topic",
   "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui"
 },
-"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/onPencilSqueeze(perform:)": {
+"doc://tcdigitalflyerui.TCDigitalFlyerUI/documentation/TCDigitalFlyerUI/FlyerViewUI/tabViewBottomAccessory(isEnabled:content:)": {
   "abstract" : [
 
   ],
@@ -337,33 +375,48 @@
     },
     {
       "kind" : "identifier",
-      "text" : "onPencilSqueeze"
+      "text" : "tabViewBottomAccessory"
     },
     {
       "kind" : "text",
-      "text" : "("
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
     },
     {
       "kind" : "externalParam",
-      "text" : "perform"
+      "text" : "isEnabled"
     },
     {
       "kind" : "text",
-      "text" : ": ("
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI25PencilSqueezeGesturePhaseO",
-      "text" : "PencilSqueezeGesturePhase"
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "content"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4Voida",
-      "text" : "Void"
+      "text" : "Content"
     },
     {
       "kind" : "text",
@@ -383,12 +436,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/onPencilSqueeze(perform:)",
+  "identifier" : "doc:\/\/tcdigitalflyerui.TCDigitalFlyerUI\/documentation\/TCDigitalFlyerUI\/FlyerViewUI\/tabViewBottomAccessory(isEnabled:content:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "onPencilSqueeze(perform:)",
+  "title" : "tabViewBottomAccessory(isEnabled:content:)",
   "type" : "topic",
-  "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/onpencilsqueeze(perform:)"
+  "url" : "\/documentation\/tcdigitalflyerui\/flyerviewui\/tabviewbottomaccessory(isenabled:content:)"
 }
 }
 }
